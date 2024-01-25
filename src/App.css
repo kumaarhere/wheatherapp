@@ -1,0 +1,213 @@
+.body{
+  background-image: url(./6322078.jpg);
+  background-size: cover;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  width:30vw;
+  height:70vh;
+  background-color: rgb(1, 35, 54);
+  border-radius: 20px;
+  box-shadow: 8px 12px 8px rgb(39, 69, 94);
+  
+}
+.input{
+  height:40px;
+  width:60%;
+  border-radius: 20px;
+  border-style: none;
+  margin:15px 60px;
+  font-size: 18px;
+  font-weight: 600;
+  outline-color:#ccc;
+}
+::placeholder{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.fa-magnifying-glass{
+  color:#111010;
+  font-weight: 800;
+  position:relative;
+  left:-12%;
+  font-size: 20px;
+  background-color: rgb(230, 200, 9);
+  padding:10px;
+  border-radius: 20px;
+  
+}
+.info{
+  margin-top: -6%;
+}
+.condition{
+  text-align: center;
+  color:#fff;
+  text-decoration: underline;
+  text-decoration-color: #7a7474;
+}
+.forecasts div{
+  width:30%;
+  height:15vh;
+  border-radius: 20px;
+  background-color: rgb(15, 40, 63);
+  font-size: 1.5rem;
+  color:#ccc;
+  font-family:monospace;
+}
+.forecasts div h5{
+  text-decoration: underline;
+  text-decoration-color: rgb(77, 131, 36);
+  text-align: center;
+  margin: 0;
+  color:cadetblue;
+}
+.forecasts{
+  display: flex;
+  justify-content: space-around;
+}
+.forecasts div span h5{
+  font-size: 15px;
+  margin-top: -30%;
+  margin-right: 8%;
+  text-align: right;
+  color:#9b8f8f;
+  text-decoration: none;
+}
+.map{
+  width:50px;
+}
+.forecasts div{
+  text-align: center;
+}
+.one span>h1{
+  margin-top: 8%;
+}
+.two span>h1{
+  margin-top: 8%;
+}
+.three span>h1{
+  margin-top: 8%;
+}
+.city{
+  display: flex;
+  justify-content: space-around;
+  margin-top: -5%;
+  padding:10px;
+}
+.city h1{
+  font-size: 2.2rem;
+  color:aquamarine;
+  margin-top: 5%;
+}
+.country{
+  color:#ccc;
+  margin-top: -10%;
+  text-align: right;
+}
+.city h4{
+  font-size: 2.8rem;
+  color:#fff;
+  margin-top: -5%;
+}
+.cloud{
+  width:30%;
+  margin-left: 30%;
+  margin-top: 5%;
+}
+.logo{
+  position: absolute;
+  top:5px;
+  left:5px;
+  width:60px;
+}
+.brand{
+  position: absolute;
+  bottom:0;
+  right:2%;
+}
+.brand a{
+  text-decoration: none;
+  color:#000;
+}
+@media only screen and (max-width:600px) {
+  .container{
+    width:85vw;
+  }
+  body{
+    background-image: url(./6322078.jpg);
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-position: 60%;
+  }
+  .fa-magnifying-glass{
+    position: absolute;
+    left:70%;
+    top:18.5%;
+  }
+  .forecasts span{
+    font-size: 20px;
+  }
+  .input{
+    margin:15px 30px 40px; 
+  }
+  .city{
+    flex-direction: column;
+    align-items: center;
+  }
+  .forecasts{margin-top: -16%;}
+  .forecasts div{
+    width:28%;
+  }
+  .forecasts div h5{
+    font-size: 18px;
+  }
+  .one span>h1{
+    margin-top: 18%;
+  }
+  .two span>h1{
+    margin-top: 18%;
+  }
+  .three span>h1{
+    margin-top: 18%;
+  }
+  .logo{width:50px;
+  margin: auto;}
+  .brand a{
+    text-decoration: none;
+    color:bisque;
+  }
+  .condition{
+    margin: 0;
+  }
+  .cloud{
+    margin-top: -4%;
+  }
+  .temperature{
+      height: 17vh;
+  }
+  .Wind{
+   font-size: 1.6rem;
+  }
+  .pressure{
+    font-size: 1.6rem;
+  }
+  .Humidity{
+    font-size: 1.6rem;
+  }
+  .temperature{
+    margin-top: -2%;
+  }
+  .forecasts div h5{
+    margin-top: 5%;
+    font-size: 1rem;
+  }
+  .forecasts div span h5{
+    margin-top: -15%;
+  }
+  .forecasts div{
+    height: 14vh;
+  }
+}
+ 
